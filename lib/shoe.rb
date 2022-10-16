@@ -1,4 +1,5 @@
 # Make your shoe class here!
+#require 'pry'
 class Shoe
     attr_accessor :brand
     attr_accessor :color
@@ -35,3 +36,7 @@ end
 def condition
     @condition = "tattered"
 end
+
+s1 = Shoe.new('Puma')
+
+#binding.pry
